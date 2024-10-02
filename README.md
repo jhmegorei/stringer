@@ -5,7 +5,6 @@
 - TODO: build Systemd jobs to fetch and cleanup feeds
 - TODO: allow custom fetch intervals per feed
 - TODO: allow custom retention periods per feed
-- TODO: Fix placeholder text not disappearing when adding a new feed
 
 ## MacOS Issues
 
