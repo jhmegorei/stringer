@@ -1,3 +1,12 @@
+# My Customizations
+- Postgres is not handled by asdf (I install it from the debian repositories)
+- Make the layout a little wider for better display on desktop
+- TODO: build Systemd service units to autostart the app
+- TODO: build Systemd jobs to fetch and cleanup feeds
+- TODO: allow custom fetch intervals per feed
+- TODO: allow custom retention periods per feed
+- TODO: Fix placeholder text not disappearing when adding a new feed
+
 # Stringer
 
 [![CircleCI](https://circleci.com/gh/stringer-rss/stringer/tree/main.svg?style=svg)](https://circleci.com/gh/stringer-rss/stringer/tree/main)
