@@ -13,7 +13,7 @@ class Story < ApplicationRecord
   UNTITLED = "[untitled]"
 
   def headline
-    title.nil? ? UNTITLED : strip_html(title)[0, 50]
+    title.nil? ? UNTITLED : strip_html(title)
   end
 
   def lead

@@ -190,8 +190,8 @@ li.story.open .story-preview {
 }
 
 .story-preview , .feed-line{
-  height: 30px;
-  line-height: 30px;
+  /*height: 30px;
+  line-height: 30px;*/
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
