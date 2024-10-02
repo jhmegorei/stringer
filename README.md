@@ -7,6 +7,18 @@
 - TODO: allow custom retention periods per feed
 - TODO: Fix placeholder text not disappearing when adding a new feed
 
+## MacOS Issues
+
+On current MacOS, there is an issue with (assumably) puma.
+
+    objc[68966]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+    objc[68965]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+    objc[68966]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+
+To run the app directly on your machine, use
+
+    OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES bundle exec rails s
+
 # Stringer
 
 [![CircleCI](https://circleci.com/gh/stringer-rss/stringer/tree/main.svg?style=svg)](https://circleci.com/gh/stringer-rss/stringer/tree/main)
